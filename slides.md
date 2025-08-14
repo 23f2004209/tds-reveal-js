@@ -66,7 +66,7 @@ style: |
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1518932945647-7a1c969f8be2?w=1920&h=1080&fit=crop') -->
+<!-- _backgroundImage: url('./images/algorithm-complexity.jpg') -->
 <!-- _color: white -->
 
 ## **Algorithm Complexity**
@@ -130,7 +130,7 @@ $$\Omega(n \log n)$$
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1509048191080-d2ade2d7bb20?w=1920&h=1080&fit=crop') -->
+<!-- _backgroundImage: url('./images/graph-algorithms.jpg') -->
 <!-- _color: white -->
 
 ## **Graph Algorithms**
@@ -195,7 +195,7 @@ $$M[i,j] = \min_{i \leq k < j}\{M[i,k] + M[k+1,j] + p_{i-1}p_k p_j\}$$
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop') -->
+<!-- _backgroundImage: url('./images/performance-optimization.jpg') -->
 <!-- _color: white -->
 
 ## **Performance Optimization**
