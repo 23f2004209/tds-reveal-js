@@ -30,23 +30,23 @@
 
           ---
           _Contact: 23f2004209@ds.study.iitm.ac.in_
-        </script>
-        <aside class="notes">
-          This slide uses Markdown for quick editing and clear formatting.
         </aside>
       </section>
       <!-- Slide 3: Animated Fragments -->
       <section>
-        <h2>Revenue Breakdown</h2>
-        <ul>
-          <li class="fragment">Product A: $2M</li>
-          <li class="fragment">Product B: $1.5M</li>
-          <li class="fragment">Product C: $1M</li>
+        <section>
+          <h2>Sample Financial Calculation</h2>
+          <pre><code class="language-python">
         </ul>
         <aside class="notes">
           Use fragments to reveal each revenue source step-by-step.
         </aside>
       </section>
+          </code></pre>
+          <aside class="notes">
+            This code demonstrates a simple net profit calculation.
+          </aside>
+        </section>
       <!-- Slide 4: Code Sample -->
       <section>
         <h2>Sample Financial Calculation</h2>
@@ -85,7 +85,11 @@ print(net_profit(5000000, 4400000))  # Output: 600000
       plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ],
       hash: true,
       slideNumber: true,
-      highlight: { highlightOnLoad: true }
+      highlight: {
+        highlightOnLoad: true,
+        // Optionally, you can specify languages
+        languages: ['python', 'javascript', 'json', 'bash']
+      }
     });
   </script>
 </body>
