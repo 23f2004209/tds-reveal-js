@@ -62,7 +62,9 @@
       <section>
         <h2 class="fragment fade-down">Sample Financial Calculation</h2>
         <div class="fragment fade-in" data-fragment-index="1">
-          <pre><code class="python" data-line-numbers="1-5|3|5">
+          <pre><code class="python" data-line-numbers="1-2|3|5">
+import pandas as pd
+
 def net_profit(revenue, expenses):
     """Calculate net profit from revenue and expenses."""
     return revenue - expenses
@@ -77,7 +79,7 @@ print(net_profit(5000000, 4400000))  # Output: 600000
         <!-- JavaScript version with highlighting -->
         <div class="fragment fade-in" data-fragment-index="3" style="margin-top: 1.5em;">
           <h3 style="color: #ffd93d;">JavaScript Implementation:</h3>
-          <pre><code class="javascript" data-line-numbers="1-7|1-3|5-7">
+          <pre><code class="javascript" data-line-numbers="1-3|5-6|7">
 const netProfit = (revenue, expenses) => {
   return revenue - expenses;
 };
@@ -174,7 +176,7 @@ console.log(`Net Profit: $${result.toLocaleString()}`);
         <!-- Python with line numbers -->
         <div class="fragment fade-in" data-fragment-index="1">
           <h3 style="color: #ffd93d;">🐍 Python (Data Analysis)</h3>
-          <pre><code class="python" data-line-numbers="1-8|3-4|6-8">
+          <pre><code class="python" data-line-numbers="1-2|4-5|7-9">
 import pandas as pd
 import numpy as np
 
@@ -190,7 +192,7 @@ print(f"Portfolio ROI: {roi:.2f}%")
         <!-- SQL with syntax highlighting -->
         <div class="fragment fade-in" data-fragment-index="2">
           <h3 style="color: #6bcf7f;">🗄️ SQL (Database Queries)</h3>
-          <pre><code class="sql" data-line-numbers="1-8|1-3|5-8">
+          <pre><code class="sql" data-line-numbers="1-4|5-8">
 SELECT 
     product_name,
     SUM(revenue) as total_revenue,
@@ -205,7 +207,7 @@ ORDER BY total_revenue DESC;
         <!-- JSON data structure -->
         <div class="fragment fade-in" data-fragment-index="3">
           <h3 style="color: #ff6b6b;">📋 JSON (API Response)</h3>
-          <pre><code class="json" data-line-numbers="1-12|2-4|5-11">
+          <pre><code class="json" data-line-numbers="1-3|4-10|11-12">
 {
   "quarter": "Q2-2024",
   "currency": "USD",
@@ -234,7 +236,7 @@ ORDER BY total_revenue DESC;
         <!-- HTML Structure -->
         <div class="fragment fade-in" data-fragment-index="1">
           <h3 style="color: #ff6b6b;">🌐 HTML Structure</h3>
-          <pre><code class="html" data-line-numbers="1-8|2-3|4-7">
+          <pre><code class="html" data-line-numbers="1,8|2-3|4-7">
 &lt;div class="dashboard-container"&gt;
   &lt;h1 class="dashboard-title"&gt;Financial Overview&lt;/h1&gt;
   &lt;div class="metrics-grid"&gt;
@@ -250,19 +252,19 @@ ORDER BY total_revenue DESC;
         <!-- CSS Styling -->
         <div class="fragment fade-in" data-fragment-index="2">
           <h3 style="color: #6bcf7f;">🎨 CSS Styling</h3>
-          <pre><code class="css" data-line-numbers="1-12|1-4|6-12">
+          <pre><code class="css" data-line-numbers="1-5|6-12">
 .metric-card {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 12px;
   padding: 2rem;
+}
   
-  .metric-value {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: white;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+.metric-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin-bottom: 0.5rem;
 }
           </code></pre>
         </div>
@@ -270,7 +272,7 @@ ORDER BY total_revenue DESC;
         <!-- TypeScript Logic -->
         <div class="fragment fade-in" data-fragment-index="3">
           <h3 style="color: #ffd93d;">⚡ TypeScript Logic</h3>
-          <pre><code class="typescript" data-line-numbers="1-12|1-5|7-12">
+          <pre><code class="typescript" data-line-numbers="1-5|7-12">
 interface FinancialMetric {
   value: number;
   label: string;
