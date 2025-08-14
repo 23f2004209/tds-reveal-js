@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quarterly Earnings Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1: Title -->
+      <section>
+        <h1>Quarterly Earnings Report</h1>
+        <p>Presented by: 23f2004209@ds.study.iitm.ac.in</p>
+        <aside class="notes">
+          Welcome stakeholders! This presentation covers our latest financial results and key insights.
+        </aside>
+      </section>
+      <!-- Slide 2: Markdown Example -->
+      <section data-markdown>
+        <script type="text/template">
+          ## Key Highlights
+
+          - Revenue growth: **15% YoY**
+          - Net profit margin: **12%**
+          - New product launches: 3
+
+          ---
+          _Contact: 23f2004209@ds.study.iitm.ac.in_
+        </script>
+        <aside class="notes">
+          This slide uses Markdown for quick editing and clear formatting.
+        </aside>
+      </section>
+      <!-- Slide 3: Animated Fragments -->
+      <section>
+        <h2>Revenue Breakdown</h2>
+        <ul>
+          <li class="fragment">Product A: $2M</li>
+          <li class="fragment">Product B: $1.5M</li>
+          <li class="fragment">Product C: $1M</li>
+        </ul>
+        <aside class="notes">
+          Use fragments to reveal each revenue source step-by-step.
+        </aside>
+      </section>
+      <!-- Slide 4: Code Sample -->
+      <section>
+        <h2>Sample Financial Calculation</h2>
+        <pre><code class="python">
+def net_profit(revenue, expenses):
+    return revenue - expenses
+
+print(net_profit(5000000, 4400000))  # Output: 600000
+        </code></pre>
+        <aside class="notes">
+          This code demonstrates a simple net profit calculation.
+        </aside>
+      </section>
+      <!-- Slide 5: Math Equation -->
+      <section>
+        <h2>Financial Formula</h2>
+        <p>
+          Net Profit Margin:
+          <br>
+          <span>
+            $$\text{Net Profit Margin} = \frac{\text{Net Profit}}{\text{Revenue}} \times 100\%$$
+          </span>
+        </p>
+        <aside class="notes">
+          MathJax renders financial formulas for clarity.
+        </aside>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/math/math.js"></script>
+  <script>
+    Reveal.initialize({
+      plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ],
+      hash: true,
+      slideNumber: true,
+      highlight: { highlightOnLoad: true }
+    });
+  </script>
+</body>
+</html>
